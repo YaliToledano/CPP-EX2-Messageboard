@@ -53,5 +53,6 @@ TEST_CASE("Testing") {
     //empty check
     CHECK(board.read(33,34,Direction::Horizontal,1).compare(""));
     CHECK(board.read(5,5,Direction::Vertical,1).compare(""));
+    board.show();
 
 }
